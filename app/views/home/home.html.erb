@@ -1,0 +1,271 @@
+<div class="container-fluid bkrd">
+  <div class="padding"></div>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to "T.Y.E", root_path, class: "navbar-brand" %>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Classes", classes_path %></li>
+        <li><%= link_to "Instructors", instructors_path %></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to 'Event 1', event_1_path %></li>
+            <li><%= link_to 'Event 2', event_2_path %></li>
+            <li><%= link_to 'Event 3', event_3_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to 'Event 4', event_4_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to 'Event 5', event_5_path %></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact Us!</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">View Profile</a></li>
+            <li><a href="#">Edit Profile</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Sign Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="jumbotron fonty">
+<h1> The Yoga <%= image_tag ("logo.JPG"), class: "jumbpic board" %> Experience </h1>
+</div>
+
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title fonty"><span class="larger">TYE<br> Mission Statement:</span></h3>
+  </div>
+  <div class="panel-body">
+      <span class="medium fonty">
+   The Yoga Experience is a grassroots movement with a simple goal: to share the <i><u>experience</u></i> of yoga with as many people as possible. Yoga teachers Brigid Murphy and Steven O'Neal focus on gentle, therapeutic and balancing yoga sequences designed to leave your body, mind and spirit refreshed after each and every practice.
+</span>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-3 col-sm-3">
+    <div class="thumbnail">
+      <%= image_tag ("bkrd.JPG"), class: "icon" %>
+      <div class="caption">
+        <h3>Yoga Nidra!</h3>
+        <p>Relax and Unwind...</p>
+        <center>
+        <p>
+          <%= link_to 'Check it out!', event_1_path, class: "btn btn-primary", role:"button" %>
+         
+         <%= link_to 'Buy Tickets!', event_1_path, class: "btn btn-default", role:"button" %>
+        </p>
+      </center>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("flowers.jpg"), class: "icon" %>
+      <div class="caption">
+        <h3>Herbology</h3>
+        <p>Learn what to pick and how to harvest...</p>
+       <center>
+        <p>
+          <%= link_to 'Check it out!', event_1_path, class: "btn btn-primary", role:"button" %>
+         
+         <%= link_to 'Buy Tickets!', event_1_path, class: "btn btn-default", role:"button" %>
+        </p>
+      </center>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("bkrd.JPG"), class: "icon" %>
+      <div class="caption">
+        <h3>Yoga Retreat</h3>
+        <p>7 day, 7 night retreat...</p>
+        <center>
+        <p>
+          <%= link_to 'Check it out!', event_1_path, class: "btn btn-primary", role:"button" %>
+         
+         <%= link_to 'Buy Tickets!', event_1_path, class: "btn btn-default", role:"button" %>
+        </p>
+      </center>
+    </div>
+    </div>
+  </div>
+
+
+    <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("flowers.jpg"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("bkrd.JPG"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("flowers.jpg"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("bkrd.JPG"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("flowers.jpg"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("bkrd.JPG"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("flowers.jpg"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("bkrd.JPG"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag ("flowers.jpg"), class: "icon" %>
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+

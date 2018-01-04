@@ -1,0 +1,108 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.board{
+	border: 3.5px #683a00 solid; 
+}
+
+
+.bkrd{
+	background: #683a00;
+}
+
+.fonty{
+	text-align: center;
+	font-family: Josefin Slab !important;
+}
+
+.larger{
+	font-size: 8em;
+}
+
+.medium{
+	font-size: 2em;
+}
+
+html, div{
+	font-family: Josefin Slab;
+}
+
+.padding{
+	padding-top: 1.5em;
+}
+
+.jumbpic{
+	height: 5em;
+	width: 5em;
+	border-radius: 50%;
+}
+
+.lefty{
+	text-align: left;
+}
+
+.icon{
+	height: 24em;
+	width: 24em;
+	border-radius: 5%;
+}
+
+.brigid{
+	height: 14em;
+	width: 14em;
+	border-radius: 50%;
+	border: 3px #d3b58f solid;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.brigid:hover {
+	height: 20em;
+	width: 20em;
+	border-radius: 50%;
+	transform: rotate(20deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.steve{
+	height: 14em;
+	width: 14em;
+	border-radius: 50%;
+	border: 3px #d3b58f solid;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.steve:hover {
+	height: 20em;
+	width: 20em;
+	border-radius: 50%;
+	transform: rotate(-20deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.floatypicright{
+	text-align: right;
+}
+
+.floatypicleft{
+	text-align: left;
+}
+
+
+.btn-primary{
+	background-color: #d3b58f !important;
+	border: 1px #683a00 solid !important;
+}
+
+.btn-primary:hover{
+	background-color: #e0cbb1 !important;
+}
+
+.row:hover{
+	size-increase: 5%;
+}
+
+
+
+
+

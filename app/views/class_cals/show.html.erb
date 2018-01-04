@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @class_cal.name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @class_cal.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @class_cal.end_time %>
+</p>
+
+<%= link_to 'Edit', edit_class_cal_path(@class_cal) %> |
+<%= link_to 'Back', class_cals_path %>

@@ -1,0 +1,2 @@
+class ClassCal < ApplicationRecord
+end
