@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'contact' => 'contact#contact'
+
   get 'event_1' => 'events#event_1'
 
   get 'event_2' => 'events#event_2'
